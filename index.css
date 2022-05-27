@@ -1,13 +1,71 @@
 body {
-    background-color: antiquewhite;
+    
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
-
 header {
-    border: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+h2 {
+    text-decoration: underline;
+}
+#title {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+#name {
+    color: navy;
+}
+#portfolio {
+    font-weight: 300;
+    margin-left: 10px;
 }
 nav {
-    border: 1px solid red;
+    width: 50%;
+}
+#navigation {
+    height: auto;
+    padding: 10px;
+    text-align: right;
+    margin-top: 0%;
+}
+.navbutton {
+    display: inline;
+    margin: 10px;
+    text-transform: uppercase;
+}
+#myinfo {
+    display: flex;
+}
+#aboutme {
+    width: 70%;
+}
+#myimage {
+    border: 1px solid black;
+    width: 30%;
+    height: 300px;
+    margin: 1%;
+    text-align: center;
+    
+}
+#experience {
+    display: flex;
+}
+#projects {
+    width: 50%;
+    background-color: navy;
+    color: antiquewhite;
+    text-align: center;
+}
+#skills {
+    width: 50%;
+    background-color: lightskyblue;
+    text-align: center;
 }
 
 
