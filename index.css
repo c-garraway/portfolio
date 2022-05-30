@@ -1,17 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
 body {
-    
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+
 }
 header {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
     text-align: left;
     display: flex;
     justify-content: space-between;
     height: 40px;
 }
+#banner {
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: rgb(229, 244, 250);
+    align-items: center;
+    height: 300px;
+}
 h2 {
-    text-decoration: underline;
+    
+    font-size: 24px;
 }
 #title {
     display: flex;
@@ -41,31 +56,89 @@ nav {
 }
 #myinfo {
     display: flex;
+    padding: 0px 20px;
+    align-items: center;
 }
 #aboutme {
     width: 70%;
+    /* border: 1px solid black; */
+}
+#aboutme h1 {
+    font-weight: 500;
+}
+#description {
+    font-size: 24px;
+    font-weight: 300;
 }
 #myimage {
+
+
+    margin: 3%;
+
+}
+/* #experience {
+    display: flex;
     border: 1px solid black;
-    width: 30%;
-    height: 300px;
-    margin: 1%;
-    text-align: center;
-    
+} */
+img {
+    border-radius: 5%;
 }
 #experience {
-    display: flex;
+
 }
 #projects {
-    width: 50%;
-    background-color: navy;
-    color: antiquewhite;
+    
+    margin: auto;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+    position: relative;
+    top: -50px;
+    justify-content: center;
+    width: 75%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+
+    /* display: flex; */
+    /* background-color: navy; */
+    /* color: antiquewhite; */
+    /* text-align: center; */
+    
+}
+#projects h2 {
+    text-align: center;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#projectlist {
+    display: flex;
+}
+.projectlistitem {
+    margin-top: 5px;
+ /*    text-transform: uppercase; */
+ border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: white;
+    width: 33%;
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
     text-align: center;
 }
 #skills {
-    width: 50%;
-    background-color: lightskyblue;
-    text-align: center;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    /* background-color: lightskyblue; */
+    /* text-align: center; */
 }
+#skillsgrid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
+}
 
