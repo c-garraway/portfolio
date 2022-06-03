@@ -19,12 +19,17 @@ header {
 }
 #banner {
     display: flex;
-    background-color: rgb(229, 244, 250);
+    background-color: navy;
     align-items: center;
     height: 250px;
 }
+img {
+    z-index: 100;
+    border: 1px solid black;
+}
 h2 {
-    font-size: 24px;
+    font-size: larger;
+    font-weight: 300;
 }
 #title {
     display: flex;
@@ -33,12 +38,14 @@ h2 {
 #name {
     color: navy;
     font-weight: 500;
-    padding-left: 20px;
     letter-spacing: 1px;
+    padding-top: 5px;
 }
 #portfolio {
     font-weight: 300;
     margin-left: 10px;
+    padding-top: 5px;
+
 }
 nav {
     display: flex;
@@ -60,7 +67,7 @@ nav i {
     display: flex;
     padding: 0px 10px;
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
 }
 #aboutme {
     width: 70%;
@@ -68,26 +75,30 @@ nav i {
 #aboutme h1 {
     font-weight: 500;
     font-size: 26px;
+    color: white;
 }
 #description {
     font-size: 24px;
     font-weight: 300;
+    color: white;
 }
 #myimage {
-    margin: 3%;
-    border: 10px solid white;
-}
-#contact {
-    font-size: 14px;
-    display: block;
-    text-align: center;
     background-color: white;
-    align-content: center;
+    border: 10px solid white;
+    margin-top: 8px;
+}
+#contactme {
+    font-size: 14px;
+    display: flex;
+    background-color: white;
+    align-items:center;
     padding-top: 5px;
+    justify-content: space-evenly;
+    color: navy;
 }
 #bumper {
     height: 30px;
-    background-color: rgb(229, 244, 250);
+    background-color: navy;
 }
 #projects {
     margin: auto;
@@ -99,7 +110,7 @@ nav i {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
-    background-color: #f7f7f7;
+    background-color: lightsteelblue;
     border-radius: 15px;
 }
 .exptitle h2 {
@@ -137,7 +148,7 @@ nav i {
 }
 a {
     text-decoration: none;
-    color: navy;
+    color: black;
 }
 a:hover {
     
