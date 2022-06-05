@@ -4,7 +4,6 @@ const banner = document.getElementById("banner");
 const bumper = document.getElementById("bumper");
 const projects = document.getElementById("projects");
 const envelope = document.getElementById("envelope");
-
 const redBox = document.getElementById("red");
 const greenBox = document.getElementById("green");
 const blueBox = document.getElementById("blue");

@@ -151,6 +151,7 @@ a:visited {
     text-decoration: none;
 }
 
+
 @media only screen and (max-width: 580px) {
     #styling {
         display: none;
