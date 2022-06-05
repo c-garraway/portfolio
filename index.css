@@ -14,14 +14,12 @@ header {
     text-align: left;
     display: flex;
     justify-content: space-between;
-    height: 40px;
     padding-bottom: 5px;
 }
 #banner {
     display: flex;
     background-color: navy;
     align-items: center;
-    height: 250px;
 }
 img {
     z-index: 100;
@@ -38,20 +36,18 @@ h2 {
 #name {
     color: navy;
     font-weight: 500;
-    letter-spacing: 1px;
-    padding-top: 5px;
+    padding: 3px;
 }
 #portfolio {
     font-weight: 300;
     margin-left: 10px;
-    padding-top: 5px;
-
+    padding: 3px;
 }
-nav {
+#styling{
     display: flex;
     align-items: center;
 }
-nav i {
+#styling i {
     padding-left: 10px;
 }
 #red {
@@ -66,16 +62,13 @@ nav i {
     color: navy;
     cursor: pointer;
 }
-#myinfo {
+#myInfo {
     display: flex;
     padding: 0px 10px;
     align-items: center;
     justify-content:space-around;
 }
-#aboutme {
-    width: 70%;
-}
-#aboutme h1 {
+#aboutMe h1 {
     font-weight: 500;
     font-size: 26px;
     color: white;
@@ -85,12 +78,13 @@ nav i {
     font-weight: 300;
     color: white;
 }
-#myimage {
+#myImage {
     background-color: white;
     border: 10px solid white;
     margin-top: 8px;
+    margin-left: 10px;
 }
-#contactme {
+#contactMe {
     font-size: 14px;
     display: flex;
     background-color: white;
@@ -110,44 +104,40 @@ nav i {
     top: -20px;
     justify-content: center;
     width: 75%;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
     background-color: lightsteelblue;
     border-radius: 15px;
 }
-.exptitle h2 {
+#experience h2 {
     text-align: center;
     font-weight: 400;
-    padding-top: 10px;
     padding-bottom: 10px;
 }
-#projectlist {
+#projectList {
     display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
 }
-.projectlistitem {
+.projectListItem {
     margin-top: 5px;
     border: 1px solid lightgrey;
     border-radius: 25px;
     background-color: white;
-    width: 33%;
     list-style-type: none;
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 #skills {
     text-align: center;
 }
-#skillsgrid {
+#skillsGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     border-top: 1px solid lightgrey;
     padding-top: 10px;
     color: navy;
+    margin-bottom: 10px;
 }
 a {
     text-decoration: none;
@@ -162,25 +152,34 @@ a:visited {
 }
 
 @media only screen and (max-width: 580px) {
-    nav {
+    #styling {
         display: none;
     }
-    #portfolio {
-        display: none;
+    #myInfo {
+        flex-wrap: wrap;
     }
-    #aboutme h1 {
-        font-size: 1.3em;
-    }
-    #name {
-        font-size: 1.5em;
+    #aboutMe h1 {
+        padding-top: 20px;
+        text-align: center;
     }
     #description {
-        font-size: .95em;
+        text-align: center;
     }
-    #myprojects {
-        font-size: .7em;
+    #myImage {
+        margin:20px;
     }
-    #myimage {
-        margin-left: 4px;
+    #skillsGrid {
+        grid-row: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    #skillsGrid i {
+        margin-top: 10px;
+    }
+    header {
+        justify-content:center;
+    }
+    #projectList {
+        display: block;
     }
   }
+

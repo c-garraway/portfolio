@@ -1,35 +1,35 @@
-const skillsgrid = document.getElementById("skillsgrid");
-const myname = document.getElementById("name");
+const skillsGrid = document.getElementById("skillsGrid");
+const myName = document.getElementById("name");
 const banner = document.getElementById("banner");
 const bumper = document.getElementById("bumper");
 const projects = document.getElementById("projects");
 const envelope = document.getElementById("envelope");
 
-const redbox = document.getElementById("red");
-const greenbox = document.getElementById("green");
-const bluebox = document.getElementById("blue");
+const redBox = document.getElementById("red");
+const greenBox = document.getElementById("green");
+const blueBox = document.getElementById("blue");
 
-redbox.onclick = function() {
-    myname.style.color = "crimson";
-    skillsgrid.style.color = "crimson";
+redBox.onclick = function() {
+    myName.style.color = "crimson";
+    skillsGrid.style.color = "crimson";
     banner.style.backgroundColor = "crimson";
     bumper.style.backgroundColor = "crimson";
     projects.style.backgroundColor = "lightpink";
     envelope.style.color = "crimson"
 };
 
-greenbox.onclick = function() {
-    myname.style.color = "forestgreen";
-    skillsgrid.style.color = "forestgreen";
+greenBox.onclick = function() {
+    myName.style.color = "forestgreen";
+    skillsGrid.style.color = "forestgreen";
     banner.style.backgroundColor = "forestgreen";
     bumper.style.backgroundColor = "forestgreen";
     projects.style.backgroundColor = "lemonchiffon";
     envelope.style.color = "forestgreen"
 };
 
-bluebox.onclick = function() {
-    myname.style.color = "navy";
-    skillsgrid.style.color = "navy";
+blueBox.onclick = function() {
+    myName.style.color = "navy";
+    skillsGrid.style.color = "navy";
     banner.style.backgroundColor = "navy";
     bumper.style.backgroundColor = "navy";
     projects.style.backgroundColor = "lightsteelblue";
