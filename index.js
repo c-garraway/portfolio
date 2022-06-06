@@ -9,12 +9,12 @@ const greenBox = document.getElementById("green");
 const blueBox = document.getElementById("blue");
 
 redBox.onclick = function() {
-    myName.style.color = "crimson";
-    skillsGrid.style.color = "crimson";
-    banner.style.backgroundColor = "crimson";
-    bumper.style.backgroundColor = "crimson";
+    myName.style.color = "darkred";
+    skillsGrid.style.color = "darkred";
+    banner.style.backgroundColor = "darkred";
+    bumper.style.backgroundColor = "darkred";
     projects.style.backgroundColor = "lightpink";
-    envelope.style.color = "crimson"
+    envelope.style.color = "darkred"
 };
 
 greenBox.onclick = function() {

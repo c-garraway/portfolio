@@ -31,7 +31,7 @@ h2 {
 }
 #title {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 #name {
     color: navy;
@@ -51,7 +51,7 @@ h2 {
     padding-left: 10px;
 }
 #red {
-    color: crimson;
+    color: darkred;
     cursor: pointer;
 }
 #green {
@@ -72,6 +72,7 @@ h2 {
     font-weight: 500;
     font-size: 26px;
     color: white;
+
 }
 #description {
     font-size: 24px;
@@ -124,7 +125,7 @@ h2 {
     border-radius: 25px;
     background-color: white;
     list-style-type: none;
-    padding: 10px;
+    padding: 10px 40px 10px 40px;
     margin: 5px;
     text-align: center;
 }
@@ -159,12 +160,15 @@ a:visited {
     #myInfo {
         flex-wrap: wrap;
     }
+    #portfolio {
+        font-size: 1.6em;
+    }
     #aboutMe h1 {
         padding-top: 20px;
-        text-align: center;
+        text-align: left;
     }
     #description {
-        text-align: center;
+        text-align: justify;
     }
     #myImage {
         margin:20px;
@@ -176,11 +180,15 @@ a:visited {
     #skillsGrid i {
         margin-top: 10px;
     }
-    header {
-        justify-content:center;
-    }
     #projectList {
         display: block;
+    }
+    .projectListItem {
+        margin-top: 15px;
+    }
+    #title {
+        width: 100%;
+        justify-content: space-between;
     }
   }
 
