@@ -167,8 +167,12 @@ a:visited {
         padding-top: 20px;
         text-align: left;
     }
+    #aboutMe {
+        width: 95%;
+
+    }
     #description {
-        text-align: justify;
+        text-align: left;
     }
     #myImage {
         margin:20px;
