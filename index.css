@@ -130,6 +130,7 @@ h2 {
     padding: 10px 40px 10px 40px;
     margin: 5px;
     text-align: center;
+    width: 30%;
 }
 #skills {
     text-align: center;
@@ -190,7 +191,8 @@ a:visited {
         display: block;
     }
     .projectListItem {
-        margin-top: 15px;
+        margin: 15px auto;
+        width: 90%;
     }
     #title {
         width: 100%;
